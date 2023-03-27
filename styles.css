@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins&family=Press+Start+2P&display=swap');
+*{
+	font-family:'Press Start 2P', cursive;
+}
+body {
+	margin: 100px;
+	background-image: url("bg1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+ 	transform: translateX(-50%)
+}
+#story {
+  padding: 18px;
+  font-size: 13px;
+  color: white;
+  width: 900px;
+  position: absolute;
+  top: 15s%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.2;
+}
+#pos {
+	font-size: 20px;
+	color: green;}
+#position1{
+	text-align: center;
+	position: absolute;
+	top: 65vh;
+	left: 24vw;}
+#position2{
+	position: absolute;
+	top: 65vh;
+	left: 48.5vw;}
+#position3{
+	position: absolute;
+	top: 65vh;
+	left: 73.5vw;}
+
+#res{
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  width: 1000px;
+  font-size: 15px;
+  border: 4px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  line-height: 1.2;
+  background-color: purple;
+}
